@@ -1,0 +1,62 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width"/>
+        <style>
+            *{
+                background-color: black;
+            }
+            
+            .main p{
+                color: white;
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 2%; 
+                margin-bottom: 1%;
+                margin-left: 40%;
+                
+            }
+            .main input[type="number"]{
+                margin-top: 5%;
+                border:1px solid white;
+                padding:10px 120px;
+                color: white;
+            }
+            #codes{
+                color: white;
+                border:1px solid white;
+                margin-left: 30%;
+                padding:10px 40px;
+            
+            }
+            .btn{
+                text-align: center;
+                color:black;
+                background-color: green;
+                padding: 2% 3%;
+                margin-top:5%;
+                border:none;
+                font-size: 20px ;
+                font-weight: bold;
+                border-radius: 30px;
+                margin-left: 30%;
+            }
+    
+        </style>
+    </head>
+    <body>
+        <form class="main">
+            <p>Enter Phone number</p>
+            <select id="codes">
+                <option value="+91">+91</option>
+                <option value="+260">+260</option>
+                <option value="+27">+27</option>
+                <option value="+92">+92</option>
+                <option value="+01">+01</option>
+              </select>
+            <input type="number" placeholder="phone number"><br>
+            <button class="btn">Next</button>
+        </form>
+    </body>
+</html>
